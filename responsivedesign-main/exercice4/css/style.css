@@ -194,9 +194,19 @@
                 margin-top: 0;
             }
 
+           .articles {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
 
-            
+            .article {
+                max-width: 50%;
+            }
+
+          
            
+
     
 
           }
