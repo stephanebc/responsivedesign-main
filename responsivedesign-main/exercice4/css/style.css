@@ -204,7 +204,20 @@
                 max-width: 50%;
             }
 
-          
+            .agenda ul li {
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            .agenda img {
+                display: inline-block;
+            }
+
+            .agenda a {
+                display: none;
+            }
+                
            
 
     
