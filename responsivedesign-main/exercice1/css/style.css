@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: red;
+    height: auto;
+}
+h1 {
+    font-size: 3rem;
+}
+
+img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 541px) {
+    div {
+        background-color: yellow;
+        height: 100vh;
+    }
+} 
+    
