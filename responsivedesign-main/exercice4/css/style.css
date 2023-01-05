@@ -1,11 +1,19 @@
 * {
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     text-decoration: none;
     font-weight: lighter;
+    font-size: 16px;
 }
 
+
 /*Ecrans inférieurs à 768px*/
+
+.container  {
+    margin: 0 auto;
+    size: 767px;
+}
 
 /*Header*/
 
@@ -24,8 +32,16 @@
         .header-nav li {
             border-style: solid;
             border-color: gray;
-            border-bottom: 0;
-            margin-left: 0;
+            border-width: 0.1rem;
+            border-left: 0;
+            border-top: 0;
+        }
+
+        .header-nav .li-top-border {
+            border-style: solid;
+            border-color: gray;
+            border-width: 0.1rem;
+            border-left: 0;
         }
 
         .header-nav li a {
@@ -38,7 +54,7 @@
         .banner {
             background-image: url("../images/bandeau-01.jpg");
             background-size: cover;
-            height: 35vh;
+            height: 22vh;
             margin-bottom: 2rem;
         }
 
@@ -77,11 +93,21 @@
             border-left: 0;
             border-right: 0;
             border-color: gray;
+            padding-top: 1rem;
+        }
+
+        .articles h3 {
+            font-size: 1.6rem;
+        }
+
+        .articles button {
+            margin-bottom: 1rem;
         }
 
         .agenda {
             background-color: gainsboro;
             padding-bottom: 1rem;
+            margin-top: 2.5rem;
         }
 
         .agenda img {
@@ -98,6 +124,7 @@
             border-width: 1.5rem;
             margin-left: 2rem;
             padding-left: 1rem;
+            font-size: 2rem;
         }
 
         .agenda a {
@@ -111,11 +138,16 @@
         
         .footer-nav {
             background-color: red;
-            
+            padding-top: 1rem;
+            padding-bottom: 1.2rem;
         }
 
         .footer-nav a {
             color: white;
+        }
+
+        .footer-nav ul {
+            padding-bottom: 1rem;
         }
 
         .footer-nav ul li {
