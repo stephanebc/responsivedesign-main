@@ -2,32 +2,62 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     text-decoration: none;
-}
-
-
-.pub img {
-    display: none;
-}
-
-h1 {
-    font-size: 3.5rem;
     font-weight: lighter;
 }
 
-.header-nav ul {
-    padding: 0;
-    
-}
+/*Ecrans inférieurs à 768px*/
 
-.header-nav li {
-    border-style: solid;
-    border-color: gray;
-    border-bottom: 0;
-    margin-left: 0;
-   
-}
+/*Header*/
 
-.header-nav li a {
-    color: goldenrod;
-    font-size: 2rem;
-}
+    /*Navbar*/
+
+        h1 {
+            font-size: 3.5rem;
+            text-align: center;
+            margin: 0;
+        }
+
+        .header-nav ul {
+            padding: 0; 
+        }
+
+        .header-nav li {
+            border-style: solid;
+            border-color: gray;
+            border-bottom: 0;
+            margin-left: 0;
+        }
+
+        .header-nav li a {
+            color: goldenrod;
+            font-size: 1.5rem;
+        }
+
+    /*Bannière*/
+
+
+        .banner {
+            background-image: url("../images/bandeau-01.jpg");
+            background-size: cover;
+            height: 40vw;
+        }
+
+        .banner h2 {
+            font-size: 2rem;
+            text-align: center;
+            background-color: white;
+            opacity: 0.5;
+        }
+
+        .banner p {
+            text-align: center;
+            background-color: white;
+            opacity: 0.5;
+        }
+
+        .banner a {
+            color: red;
+        }
+
+        
+
