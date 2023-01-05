@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
+    text-decoration: none;
 }
 
 
@@ -8,3 +9,25 @@
     display: none;
 }
 
+h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.header-nav ul {
+    padding: 0;
+    
+}
+
+.header-nav li {
+    border-style: solid;
+    border-color: gray;
+    border-bottom: 0;
+    margin-left: 0;
+   
+}
+
+.header-nav li a {
+    color: goldenrod;
+    font-size: 2rem;
+}
