@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Container {
+    max-width: 800px;
+}
+*/
+
+header {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+header nav {
+    width: 100vw;
+}
+
+main {
+    width: 85vw;
+}
+
+main article {
+    width: 33.33vw;
+}
+
+footer {
+    width: 100vw;
+}
+
+footer .footer-text {
+    margin: 0 auto;
+}
+
+footer .footer-social-media {
+    margin: 0 auto;
+}
+
