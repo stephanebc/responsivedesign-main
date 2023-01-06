@@ -6,6 +6,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav a:link {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+a:link {
+    color: #0087cc;
+}
+
+a:hover {
+    color: #ff7b29;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
 
 .container {
     width: 800px;
@@ -26,7 +46,7 @@ main {
     width: 85%;
 }
 
-main article {
+main .div-articles article {
     width: 33.33%;
 }
 
@@ -97,11 +117,47 @@ nav a {
     color: #fff;
 }
 
-
-
-
-
 /*Main*/
+
+.div-articles {
+    display: flex;
+    flex-direction: column
+}
+
+figure img {
+    width: 150%;
+}
+
+.article-date {
+    color: #929292;
+}
+
+.article-title {
+    color: #0087cc;
+    font-weight: bolder;
+}
+
+figcaption {
+    color: #0087cc;
+}
+
+.article-paragraph {
+    color: #555;
+}
 
 /*Footer*/
 
+.footer-title
+{
+    color: #0087cc;
+    font-weight: bolder;
+}
+
+.footer-subtitle {
+    color: #555;
+    font-weight: bolder;
+}
+
+.footer-copyright {
+    color: #555;
+}
