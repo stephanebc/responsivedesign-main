@@ -210,13 +210,16 @@
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                margin-left: 3rem;
+                margin-left: 6rem;
                 margin-right: 3rem;
             }
 
             .article {
-                max-width: 50%;
+                max-width: 48%;
                 border-style: solid;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                
  
             }
 
