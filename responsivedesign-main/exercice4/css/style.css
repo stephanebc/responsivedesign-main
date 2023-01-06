@@ -198,24 +198,39 @@
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+                
             }
 
             .article {
                 max-width: 50%;
+ 
             }
 
-            .agenda ul li {
+            .agenda ul {
                 display: flex;
                 flex-direction: row;
-
+                width: auto;
+                height: auto;
             }
 
             .agenda img {
                 display: inline-block;
+                width: 200px;
+                margin-right: 0.8rem;
             }
 
             .agenda a {
                 display: none;
+            }
+
+            .footer-nav ul {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+
+            .footer-nav ul li {
+                width: 35vw;
             }
                 
            
