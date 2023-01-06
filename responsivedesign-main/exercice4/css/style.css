@@ -104,6 +104,11 @@
             margin-bottom: 1rem;
         }
 
+        .articles img {
+            width: 100%;
+            height: auto;
+        }
+
         .agenda {
             background-color: gainsboro;
             padding-bottom: 1rem;
