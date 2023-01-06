@@ -1,35 +1,37 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-Container {
-    max-width: 800px;
+
+.container {
+    width: 800px;
 }
-*/
+
+/*Définition des largeurs des éléments principaux*/
 
 header {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
 header nav {
-    width: 100vw;
+    width: 100%;
 }
 
 main {
-    width: 85vw;
+    width: 85%;
 }
 
 main article {
-    width: 33.33vw;
+    width: 33.33%;
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
 }
 
 footer .footer-text {
@@ -39,4 +41,67 @@ footer .footer-text {
 footer .footer-social-media {
     margin: 0 auto;
 }
+
+
+/*Redimensionnement des images*/
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+/*Header*/
+
+.logo-and-title {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 2rem;
+}
+
+.logo-title {
+    color: #0087cc;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin-left: 1.5rem;
+}
+
+.li-marr {
+    margin-right: 5rem;
+}
+
+nav {
+    background-color: #0087cc;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+nav a {
+    color: #fff;
+}
+
+
+
+
+
+/*Main*/
+
+/*Footer*/
 
