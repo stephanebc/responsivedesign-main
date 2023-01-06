@@ -46,7 +46,7 @@ main {
     width: 85%;
 }
 
-main .div-articles article {
+main .div-articles .div-article {
     width: 33.33%;
 }
 
@@ -74,7 +74,6 @@ footer .footer-social-media {
     width: 32px;
     height: 32px;
 }
-
 
 
 /*Header*/
@@ -121,10 +120,10 @@ nav a {
 
 .div-articles {
     display: flex;
-    flex-direction: column
+    flex-direction: row;
 }
 
-figure img {
+.article-image figure img {
     width: 150%;
 }
 
