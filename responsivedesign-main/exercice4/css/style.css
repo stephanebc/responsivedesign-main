@@ -219,8 +219,21 @@
                 border-style: solid;
                 margin-top: 1rem;
                 margin-right: 1rem;
-                
- 
+            }
+
+            .article p{
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+
+            .article h3{
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+
+            .article button{
+                margin-right: 1rem;
+                margin-left: 1rem;
             }
 
             .agenda ul {
